@@ -1,0 +1,259 @@
+<%  layout('base-template'); 
+    navigation_entries=[
+        {"label": "About", "link": "/about"},
+    ];
+    page = 'match-reports';
+-%>
+
+
+<link rel="stylesheet" href="/static/css/match-reports.css">
+<link rel="stylesheet" href="/static/css/lightbox.min.css">
+<script src="/static/js/libs/lightbox.min.js"></script>
+
+<div id ="faq">
+    <div class="container">
+        <div class ="row">
+
+            <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12">
+                        <h1 class= "text-center headline">Wisdota Match Reports</h1>
+                    </div>
+                </div>
+
+                <div class="content-box container">
+                    <div class="row about-row">
+                        <div class="col-xs-12 col-md-4 content">
+                            <h2>
+                                What are Match Reports?
+                            </h2>
+                            <p>
+                                Wisdota match reports give a detailed, personalised analysis of your play in a specific match. They help you improve your game by pin-pointing mistakes and suggesting alternative plays.
+                            </p>
+ 
+                            <p> 
+                                With a match report you can get information on how to optimise your decision making, mechanics, movement, fight execution, and itemisation for the specific hero you played.
+                            </p>
+
+                            <p>
+                                Take a look at the full examples below if you would like to see more.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-8 ">
+                            <div class="row">
+                                <div class="col-xs-6 content report-thumbnail-container">
+                                    <a href="/static/img/match-reports/review-1.png" data-lightbox="examples">
+                                        <img src="/static/img/match-reports/review-1.png" class="report-thumbnail">
+                                    </a>
+                                </div>
+                                <div class="col-xs-6 content report-thumbnail-container">
+                                    <a href="/static/img/match-reports/review-2.png" data-lightbox="examples">
+                                        <img src="/static/img/match-reports/review-2.png" class="report-thumbnail">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="content-box container">
+                    <div class="row about-row">
+                        <div class="col-xs-12 col-md-4 content">
+                            <h2>
+                                What are Wisdota Video Reports?
+                            </h2>
+                            <p>
+                                Wisdota Video Reports are a new service that takes your game replay and generates a detailed coaching video. The video is personalised just for you to help you improve your play by pin-pointing mistakes and suggesting alternatives.
+                            </p>
+ 
+                            <p> 
+                                With a video report you can get information on how to optimise your decision making, mechanics, movement, fight execution, and itemisation for the specific hero you played.
+                            </p>
+
+                            <p>
+                                Take a look at the examples below to see more.
+                            </p>
+                        </div>
+                        <div class="col-xs-12 col-md-8 text-center">
+                            <iframe width="720" height="420" src="https://www.youtube.com/embed/i8xeRq00_KE?list=PL_rItfr4viY26SdcAHSujmD4GRivlw0ID" frameborder="0" allowfullscreen></iframe>
+                        </div>                    
+                    </div>
+                </div>
+
+                <div class="content-box container">
+                     <div class ="row">
+                        <div class="col-lg-12">
+                            <h2>Example Video Reports</h2>
+                        </div>
+                    </div>
+                     <div class ="row">
+                        <div class="col-lg-5 col-xs-12 col-lg-offset-1 text-center">
+                            <iframe width="450" height="280" src="https://www.youtube.com/embed/ryv00wy5TH4" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-5 col-xs-12 text-center">
+                            <iframe width="450" height="280" src="https://www.youtube.com/embed/qSR-_DgXycQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                     </div>
+                </div>
+
+                 <div class="content-box container">
+                     <div class ="row">
+                        <div class="col-lg-12">
+                            <h2>Reports</h2>
+                        </div>
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <table class="table examples-table">
+                                <tr><th>Match ID</th><th>Hero</th><th>Skill Bracket</th><th>Replay</th></tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2765852188.pdf">2765852188</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Slardar.png" class="hero-picture"></td>
+                                    <td>~ 3800 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2765852188"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2749435254.pdf">2749435254</a> <a href="https://www.youtube.com/watch?v=qSR-_DgXycQ">[Vid]</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Zeus.png" class="hero-picture"></td>
+                                    <td>~ 2500 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2749435254"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2745486950.pdf">2745486950</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Phantom_Assassin.png" class="hero-picture"></td>
+                                    <td>~ 2500 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2745486950"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="/static/reports/review2742544603.pdf">2742544603</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Sand_King.png" class="hero-picture"></td>
+                                    <td>~ 3500 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2742544603"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2741900717.pdf">2741900717</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Bristleback.png" class="hero-picture"></td>
+                                    <td>~ 2500 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2741900717"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2740681929.pdf">2740681929</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Rubick.png" class="hero-picture"></td>
+                                    <td>Pro</td>
+                                    <td><a href="http://wisdota.com/api/download/2740681929"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2736890401.pdf">2736890401</a><a href="https://www.youtube.com/watch?v=ryv00wy5TH4">[Vid]</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Sven.png" class="hero-picture"></td>
+                                    <td>~ -4500 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2736890401"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2727799586.pdf">2727799586</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Phantom_Assassin.png" class="hero-picture"></td>
+                                    <td>~ -3800 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2727799586"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2705787298.pdf">2705787298</a> <a href="/static/reports/review2705787298_v2.pdf">[v2]</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Spirit_Breaker.png" class="hero-picture"></td>
+                                    <td>~ 3100 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2705787298"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2702991590.pdf">2702991590</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Ursa.png" class="hero-picture"></td>
+                                    <td>~ 5000 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2702991590"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2686044274.pdf">2686044274</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Naga Siren.png" class="hero-picture"></td>
+                                    <td>~ 4600 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2686044274"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2683860108.pdf">2683860108</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Mirana.png" class="hero-picture"></td>
+                                    <td>~ 4000 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2683860108"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+
+                                <tr>
+                                    <td><a href="/static/reports/review2676766978.pdf">2676766978</a></td>
+                                    <td><img src="/static/img/heroes/pictures/Antimage.png" class="hero-picture"></td>
+                                    <td>~ 2800 MMR</td>
+                                    <td><a href="http://wisdota.com/api/download/2676766978"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></a></td>
+                                </tr>
+                            </table>
+                        </div>
+                     </div>
+                </div>
+
+
+                <div class="content-box container">
+                     <div class ="row">
+                         <div class="col-lg-12">
+                            <h2>Testimonials</h2>
+                            <div class ="row">                
+                                <div class="col-lg-4 col-lg-offset-1">
+                                    <div class ="row">
+                                        <div class="col-lg-12">
+                                            <p class="testimonial">
+                                                Wow - I'm really impressed! That is some very thorough and helpful analysis...The tips seem to be very hero specific. I wish I could have every replay of mine analysed like that! Hah 🙂
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class ="row">
+                                        <div class="col-lg-12">
+                                            <p class="testimonial-name"> - Eugenio "Perpetuus" Depalo </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-4 col-lg-offset-1">
+                                    <div class ="row">
+                                        <div class="col-lg-12">
+                                            <p class="testimonial">
+                                                Great report! The video report is on a whole different level. I watched a lot of dota video guides and had some coaching, but i found this video a lot more helpfull. It's easy to understand, revise, and you focus on the essentals.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class ="row">
+                                        <div class="col-lg-12">
+                                            <p class="testimonial-name"> - Peter "seed1" Storo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                     </div>
+                </div>
+
+                <div class="content-box container">
+                     <div class ="row">
+                         <div class="col-lg-12">
+                            <table class="contact-table">
+                                <tr>
+                                    <td><h2>Questions? Contact Us!</h2></td>
+                                    <td><a href="mailto:quirin.fischer@wisdota.com">Email </a></td>
+                                    <td><a href="http://www.twitter.com/wisdota">Twitter</a></td>
+                                </tr>
+                            </table>
+                         </div>
+                     </div>
+                </div>
+        </div>
+    </div>
+</div>
+

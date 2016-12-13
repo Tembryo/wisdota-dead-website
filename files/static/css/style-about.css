@@ -1,0 +1,166 @@
+.about-us {
+}
+
+.aboutus-content {
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #fff;
+}
+.aboutus-content img {
+  width: 100%;
+  height: auto;
+}
+.aboutus-content .content {
+  padding: 20px 30px;
+}
+.aboutus-content h2 {
+  font-weight: 300 !important;
+  color: #857d81;
+  padding: 10px;
+  font-size: 28px;
+}
+.aboutus-content p {
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 25px;
+  color: #494547;
+  font-weight: 300 !important;
+}
+.aboutus-content p strong {
+  font-weight: 300;
+}
+.aboutus-content a {
+  color: #857d81;
+}
+.aboutus-content a:hover {
+  color: #e39426;
+}
+
+.white {
+  background-color: #fff;
+}
+.white p {
+  font-weight: 300 !important;
+  color: #494547;
+  padding: 25px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.gray {
+  background-color: #f1f1f1;
+}
+.gray p {
+  font-weight: 300 !important;
+  color: #494547;
+  padding: 40px 25px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.white a {
+  color: #494547;
+  font-size: 20px;
+  line-height: 26px;
+}
+.gray a {
+  font-weight: 300 !important;
+  color: #494547;
+  font-size: 20px;
+  line-height: 26px;
+}
+.white a:hover {
+  color: #e39426;
+}
+.gray a:hover {
+  color: #e39426;
+}
+
+
+.team .container-team {
+  position: relative;
+  max-width: 500px;
+  margin: 100px auto 0px;
+}
+.team .image {
+  position: absolute;
+  top: -80px;
+  left: 40px;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin: auto auto;
+}
+.team .image img {
+  width: 100%;
+  height: auto;
+}
+.team h2 {
+  font-weight: 300 !important;
+  background-color: #f1f1f1;
+  color: #494547;
+  font-size: 28px;
+  padding: 20px 20px;
+  border-radius: 5px 5px 0px 0px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  text-align: right;
+}
+
+.team a {
+  color: #494547;
+}
+
+.team .details {
+  color: #494547;
+  background-color: #fff;
+  padding: 20px 25px;
+  overflow: auto;
+}
+.team .details span {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #b3b1b1;
+}
+.team .details span:first-of-type {
+  float: left;
+}
+.team .details span:nth-of-type(2) {
+  float: right;
+}
+.team .description {
+  background-color: #f1f1f1;
+  color: #494547;
+  padding: 20px 20px 0px;
+  border-radius: 0px 0px 5px 5px;
+  min-height: 400px;
+  margin-bottom: 20px;
+}
+.team .description p {
+  margin-top: 20px;
+}
+.title{
+  font-size: 32pt;
+  font-weight: 300;
+}
+
+.subscriber-list
+{
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 10px 10px 10px;
+}
+
+.subscriber{
+  height: 45px;
+  padding-left: 55px;
+  padding-top: 8px;
+  margin: 10px 0px 10px 0px;
+
+  font-weight: 300 !important;
+  color: #494547;
+}
+
+.subscriber-lvl-1{
+  background: url('/static/img/subscriber-listbadge-lvl1.png') no-repeat left top;
+}

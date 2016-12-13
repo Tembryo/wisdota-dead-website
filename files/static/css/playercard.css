@@ -1,0 +1,98 @@
+.playercard {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+  background: rgba(59, 55, 57, 0.56);
+  -webkit-box-shadow: 0px 0px 30px -2px rgba(108, 101, 115, 0.9);
+  -moz-box-shadow: 0px 0px 30px -2px rgba(108, 101, 115, 0.9);
+  box-shadow: 0px 0px 30px -2px rgba(108, 101, 115, 0.9);
+}
+.playercard .player-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 125px;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.player-img-bordered {
+  border: 4px solid white;
+}
+
+.player-img-slot{
+  overflow: hidden;
+  position: absolute;
+  top: -90px;
+  left: -25px;
+  width: 190px;
+  height: 190px;
+}
+
+.subscriber-slot-lvl1{
+  background: url(/static/img/subscriber-slot-lvl1.png);
+  background-size: 100%;
+}
+
+.playercard .top-card {
+  position: relative;
+  height: 50px;
+  width: 100%;
+  background: #403b3e;
+  line-height: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.playercard .player-title {
+
+  text-align: center;
+
+  position: absolute;
+  right: 20px;
+}
+.playercard .player-title h4 {
+  color: white;
+  margin: 0px;
+  line-height: 50px;
+}
+.playercard .under-top-card {
+  background: #5b5258;
+  width: 100%;
+  height: 50px;
+}
+.playercard .under-top-card a {
+  margin-top: 10px;
+  background: #3b3739;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid #746d71;
+  border-radius: 4px;
+  float: right;
+  color: #746d71;
+  margin-right: 10px;
+}
+.playercard .under-top-card .left {
+  width: 10%;
+  float: left;
+}
+.playercard .under-top-card .right {
+  width: 90%;
+}
+.playercard .mid-card {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  overflow: hidden;
+  background: #383838;
+}
+.playercard img {
+  max-width: 100%;
+}
+#playercard-canvas {
+  width: 300px;
+  height: 300px;
+}

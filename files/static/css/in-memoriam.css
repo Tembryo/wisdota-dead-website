@@ -1,0 +1,33 @@
+.imgselector{
+    text-align: center;
+}
+
+.imgselector li{
+    display: inline-block;
+}
+
+.imgselector a {
+    font-size: 24px;
+}
+
+.imgselector .active a{
+    color: #e39426;
+}
+
+.img-container {
+    height: 400px;
+}
+
+.tab-content img {
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+}
+
+
+
+.tab-content h3 {
+    text-align: center;
+}

@@ -1,0 +1,115 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow-x: hidden;
+}
+.faq {
+  background: url(/static/img/background.jpg) repeat;
+  font-size: 0px;
+  padding: 25px 0 0;
+}
+header {
+  padding: 25px 0 50px;
+}
+.contact-header {
+  float: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 0px;
+}
+.contact-header li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.contact-header li:first-child {
+  margin-left: 0px;
+}
+.contact-header li a {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #fff;
+  font-size: 17px;
+  line-height: 50px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 300 !important;
+}
+.faq-title {
+  float: none !important;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 54px;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+}
+
+.faq-content {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 40px;
+}
+.content {
+  padding: 25px 15px;
+}
+.content h2 {
+  font-size: 24px;
+  color: #3b3538;
+}
+.content p {
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 28px;
+  color: #8c8c8c;
+  font-weight: 200 !important;
+}
+.faq-contact {
+  margin-top: 30px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 50px;
+}
+.faq-contact h2 {
+  font-size: 32px;
+  color: #5a5a5a;
+  font-weight: 300 !important;
+}
+.faq-contact p {
+  max-width: 1000px;
+  margin: 25px auto;
+  font-size: 18px;
+  line-height: 34px;
+  color: #6c6c6c;
+  font-weight: 300 !important;
+}
+.faq-contact p strong {
+  font-weight: 500 !important;
+}
+.faq-contact .button-tweet {
+  font-size: 0px;
+  text-decoration: none;
+  display: inline-block;
+  background-color: #0793e3;
+  border: 1px solid #0793e3;
+  text-align: center;
+  padding: 7px;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.4s ease-in-out 0s;
+}
+.faq-contact .button-tweet:hover {
+  border: 1px solid #0793e3;
+  background-color: transparent;
+  color: #0793e3;
+}
+.faq-contact .button-tweet i,
+span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 3px;
+  transition: all 0.4s ease-in-out 0s;
+}

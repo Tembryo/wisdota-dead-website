@@ -1,0 +1,51 @@
+<link href="/static/css/header.css" rel="stylesheet">
+
+<header class="header">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div> <!-- navbar-header -->
+
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="row">
+
+                    <div class="col-sm-7 col-xs-12">
+                        <ul class="nav navbar-nav navigation-left">
+                            <% if(page !== 'index') { %> <li><a href="/">Home</a></li> <% } %>
+                            <li><a href="/match-reports" id="match-reports">Match Reports!</a></li>
+                            <li><a href="/faq">FAQ</a></li>
+                            <li><a href="/about">About Us</a></li>
+                        </ul> <!-- nav navbar-nav -->
+                    </div>
+
+                    <!--<div class="col-sm-2 col-xs-12">
+                    </div>-->
+
+                    <div class="col-sm-5 col-xs-12">
+                        <ul class="nav navbar-nav navbar-right navigation-right">
+                            
+                        <% if ( user && user["admin"]) { %>
+                            <li>
+                                <a href="/admin"><i class="fa fa-briefcase "></i></a>
+                            </li>
+                        <% } %>
+
+                        </ul> <!-- nav navbar-nav navbar-right -->
+                    </div>
+
+                </div> <!-- row -->
+            </div> <!-- collapse navbar-collapse -->
+        </div> <!-- container-fluid -->
+    </nav> <!-- navbar navbar-default -->
+
+</header>

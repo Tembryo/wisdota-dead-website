@@ -1,0 +1,89 @@
+.hero-image-container {
+	display: inline-block;
+	padding-left: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+
+.skills-table
+{
+    border-collapse: separate;
+    empty-cells: show;
+}
+
+.skills-table td
+{
+    padding: 5px;
+}
+
+.skill-row 
+{
+    height:25px;
+    margin: 10px;
+    line-height: 25px;
+    clear:both;
+}
+
+.skill-name
+{
+    float:right;
+    color:#c9c9db;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+.skill-name:hover
+{
+    color: #ec971f;
+}
+
+.skill-details{
+    text-align: left;
+    padding-left: 30px;
+    color: #c9c9db;
+}
+
+.skill-score
+{
+    text-align: center;
+
+    line-height: 25px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.skill-bar
+{
+    height: 25px;
+    background: #41434D;
+}
+
+.skill-bar-value
+{
+    position: absolute;
+    background: #ec971f;
+    height: 25px;
+    opacity: 0.55;
+
+    -webkit-transition: .3s all ease-out;
+    -moz-transition: .3s all ease-out;
+    -ms-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+}
+
+.skill-bar-average
+{
+    position: absolute;
+    background: #555963;
+    height: 25px;
+    opacity: 1;
+}
+
+.skill-value
+{
+    font-variant: small-caps;
+    /*font-style: italic;*/
+}

@@ -1,0 +1,16 @@
+FROM node:5
+
+COPY wisdota-shared-code /shared-code
+WORKDIR /shared-code
+RUN npm install
+
+COPY wisdota-dead-website/src /source
+WORKDIR /source
+RUN npm install
+
+COPY wisdota-dead-website/files /files
+
+# expose port of the server
+EXPOSE 42000
+
+CMD ["node", "server.js"]
